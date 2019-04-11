@@ -29,8 +29,7 @@ public class BookLoader {
 
     private final Jdbi jdbi;
 
-    public BookLoader() throws ClassNotFoundException {
-        Class.forName("org.postgresql.Driver");
+    public BookLoader() {
         jdbi = Jdbi.create(POSTGRES_JDBC_URL, "postgres", "123");
     }
 
