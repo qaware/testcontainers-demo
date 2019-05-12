@@ -1,6 +1,8 @@
 # Testcontainers demo
 
-This demo project shows how to write an integration test with Docker containers for a Java EE micro service using the [Testcontainers](https://www.testcontainers.org/) library.
+This demo project shows how to write an integration test with Docker containers for a Java EE microservice using the [Testcontainers](https://www.testcontainers.org/) library.
+
+The demo accompanies the blog post [Integration tests for Java EE with Testcontainers](https://medium.com/@sbillet/integration-tests-for-java-ee-with-testcontainers-10b02ac08603).
 
 ## Overview
 
